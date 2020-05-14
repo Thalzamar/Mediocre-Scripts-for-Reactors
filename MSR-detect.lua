@@ -61,8 +61,8 @@ print("Test concluded, building Heaters and Vessels")
 
 for i = 1,#vessels 
 	do
-	if not vessel[i][2] 
-			then table.move(vessel,i,i,#nove+1,nove)
+	if not vessels[i][2] 
+			then table.move(vessels,i,i,#nove+1,nove)
 		end
 	end
 if #nove > 0
