@@ -6,16 +6,15 @@ print("Iniating Startup Sequence")
 os.sleep(5) 
 --maybe insert event for key press ?
 --startup see if reactor is complete, no cheating
-[[ 
-have to think on this did something wrong
-local function init()
-local workCheck = 	msr.isComplete()
-end
  
- while not workCheck
-	do  init()
-end
-]]
+--have to think on this did something wrong
+--local function init()
+--local workCheck = 	msr.isComplete()
+--end
+ 
+ --while not workCheck
+--	do  init()
+--end
 --variable list MSR
 -- msr.activate() msr.deactivate() on/off
 local active = 		msr.isReactorOn()
