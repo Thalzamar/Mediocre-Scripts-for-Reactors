@@ -91,8 +91,8 @@ if #nove > 0
 if not repeat next table ]]
 for i = 1,#heaters
 	do 
-	if #aheat = 0 then
-	table.move(heaters,1,1,#aheat+1,aheat)
+	if #aheat = 0
+	then table.move(heaters,1,1,#aheat+1,aheat)
 		elseif heaters[1][2] = aheat[1][2] 
 		then table.move(heaters,1,1,#aheat+1,aheat)
 			elseif #bheat = 0 
