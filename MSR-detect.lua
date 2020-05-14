@@ -58,7 +58,7 @@ os.sleep(10)
 {{{posX, posY, posZ}, isProcessing, currentRecipeTime, processTime, processHeat, efficiency, heatMultiplier},...}
 Returns a table containing the stats of all the vessels in the multiblock.
 ]]
-local vessel =		msr.getVesselStats()
+local vessels =		msr.getVesselStats()
 --[[
 Object[] getHeaterStats() -> {{{posX, posY, posZ}, coolantName, isProcessing, currentRecipeTime, processTime, processCooling},...}
 Returns a table containing the stats of all the heaters in the multiblock.
@@ -73,8 +73,8 @@ print("Test concluded, building Heaters and Vessels")
 
 for i = 1,#vessels 
 	do
-	if not vessel[i][2] 
-			then table.move(vessel,i,i,#nove+1,nove)
+	if not vessels[i][2] 
+			then table.move(vessels,i,i,#nove+1,nove)
 		end
 	end
 if #nove > 0
