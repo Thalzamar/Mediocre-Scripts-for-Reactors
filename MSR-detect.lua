@@ -51,7 +51,7 @@ local oheat=	 	{}
 Print("Reactor Test to see if all Vessels and Heater work")
 --empty table to copy non-working vessels into
 local nove = {}
-local msr.activate()
+msr.activate()
 os.sleep(1)
 --[[
 {{{posX, posY, posZ}, isProcessing, currentRecipeTime, processTime, processHeat, efficiency, heatMultiplier},...}
@@ -64,7 +64,7 @@ Returns a table containing the stats of all the heaters in the multiblock.
 ]]
 local heaters =		msr.getHeaterStats()
 
-local msr.deactivate()
+msr.deactivate()
 term.clearLine()
 Print("Test concluded, building Heaters and Vessels")
 
