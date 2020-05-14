@@ -78,7 +78,7 @@ if #nove > 0
 	then 
 	for i = 1,#nove
 		do 
-		Print("Vessel ",i," is not working at " nove[i][1] )
+		Print("Vessel ",i," is not working at ", nove[i][1] )
 		end
 	end
 
