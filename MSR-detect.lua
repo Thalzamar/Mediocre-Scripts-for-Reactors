@@ -1,11 +1,10 @@
 
-
-
 --My Crime against Humanity starts
 print("Iniating Startup Sequence")
 os.sleep(5)
 --maybe insert event for key press ?
-local msr = 		component.nc_salt_fission_reactor
+local c = require("component")
+local msr = c.nc_salt_fission_reactor
 --startup see if reactor is complete, no cheating
 local function init()
 local workCheck = 	msr.isComplete()
