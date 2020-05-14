@@ -73,7 +73,7 @@ Print("Test concluded, building Heaters and Vessels")
 
 for i = 1,#vessels 
 	do
-	if ~= vessel[i][2] 
+	if not vessel[i][3] 
 			then table.move(vessel,i,i,#nove+1,nove)
 		end
 	end
@@ -81,7 +81,7 @@ if #nove > 0
 	then 
 	for i = 1,#nove
 		do 
-		Print("Vessel ",i," is not working at " nove[i,1] )
+		Print("Vessel ",i," is not working at " nove[i][1] )
 		end
 	end
 
