@@ -5,4 +5,4 @@ Nuclearcraft Molten Salt Reactor OC Scripts
 
 -to do: 2Stage Rankine Cycle Spreadsheet Output directly in game
 
--to dotake the Watercontacts of Rankine Cycle to calculate HX size
+-to do take the Watercontacts of Rankine Cycle to calculate HX size
