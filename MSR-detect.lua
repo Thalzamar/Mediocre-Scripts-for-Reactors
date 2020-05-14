@@ -66,7 +66,6 @@ Returns a table containing the stats of all the heaters in the multiblock.
 local heaters =		msr.getHeaterStats()
 
 msr.deactivate()
-term.clearLine()
 print("Test concluded, building Heaters and Vessels")
 
 
