@@ -51,7 +51,7 @@ local oheat=	 	{}
 Print("Reactor Test to see if all Vessels and Heater work")
 --empty table to copy non-working vessels into
 local nove = {}
-msr.activate()
+component.nc_salt_fission_reactor.activate()
 os.sleep(1)
 --[[
 {{{posX, posY, posZ}, isProcessing, currentRecipeTime, processTime, processHeat, efficiency, heatMultiplier},...}
