@@ -206,3 +206,5 @@ for i = 1,#heaters
 	then print("You have", #oheat,oheat[1][2], "Heaters")
 	end
 	
+os.sleep(50)
+os.exit()
