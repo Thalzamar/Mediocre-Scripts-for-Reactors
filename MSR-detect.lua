@@ -5,15 +5,6 @@ os.sleep(5)
 --maybe insert event for key press ?
 local c = require("component")
 local msr = c.nc_salt_fission_reactor
---startup see if reactor is complete, no cheating
-local function init()
-local workCheck = 	msr.isComplete()
-end
- 
- while not workCheck
-	do  init()
-end
-
 --variable list MSR
 -- msr.activate() msr.deactivate() on/off
 local active = 		msr.isReactorOn()
@@ -23,7 +14,7 @@ local zsize = 		msr.getLengthZ()
 local mxheat =		msr.getHeatCapacity()
 local rEff =		msr.getCoolingEfficiency()
 local cool =		msr.getCoolingRate()
---don't know if these are needed
+--don't know what's needed later or not better get all of this stuff
 local nvessel =		msr.getNumberOfVessels()
 local nheaters = 	msr.getNumberOfHeaters()
 
