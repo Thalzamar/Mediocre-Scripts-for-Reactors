@@ -193,7 +193,8 @@ for i = 1,#heaters
 	end
 	if #mheat > 0
 	then print("You have", #mheat,mheat[1][2], "Heaters")
-	endif #heat > 0
+	end
+	if #heat > 0
 	then print("You have", #nheat,nheat[1][2], "Heaters")
 	end
 	if #oheat > 0
