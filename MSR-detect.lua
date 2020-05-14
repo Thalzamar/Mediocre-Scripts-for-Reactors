@@ -1,11 +1,9 @@
 local c = require("component")
-local t = require("term")
-local event = require("event")
 local msr = c.nc_salt_fission_reactor
 
 --My Crime against Humanity starts
 print("Iniating Startup Sequence")
---os.sleep(5) why is this suddenly nil ?
+os.sleep(5) 
 --maybe insert event for key press ?
 --startup see if reactor is complete, no cheating
 [[ 
