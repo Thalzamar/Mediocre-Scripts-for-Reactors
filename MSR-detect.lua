@@ -18,10 +18,10 @@ end
 --variable list MSR
 -- msr.activate() msr.deactivate() on/off
 local active = 		msr.isReactorOn()
-local x-size = 		msr.getLengthX()
-local y-size = 		msr.getLengthY()
-local z-size = 		msr.getLengthZ()
-local mx-heat =		msr.getHeatCapacity()
+local xsize = 		msr.getLengthX()
+local ysize = 		msr.getLengthY()
+local zsize = 		msr.getLengthZ()
+local mxheat =		msr.getHeatCapacity()
 local rEff =		msr.getCoolingEfficiency()
 local cool =		msr.getCoolingRate()
 --don't know if these are needed
