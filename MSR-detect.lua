@@ -48,7 +48,7 @@ local oheat=	 	{}
 
 
 --Vesseltest and Heatertest
-Print("Reactor Test to see if all Vessels and Heater work")
+print("Reactor Test to see if all Vessels and Heater work")
 --empty table to copy non-working vessels into
 local nove = {}
 msr.activate()
@@ -82,7 +82,7 @@ if #nove > 0
 	then 
 	for i = 1,#nove
 		do 
-		Print("Vessel ",i," is not working at ", nove[i][1] )
+		print("Vessel ",i," is not working at ", nove[i][1] )
 		end
 	end
 
