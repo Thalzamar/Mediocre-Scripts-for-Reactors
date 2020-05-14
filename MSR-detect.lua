@@ -47,7 +47,7 @@ os.sleep(1)
 {{{posX, posY, posZ}, isProcessing, currentRecipeTime, processTime, processHeat, efficiency, heatMultiplier},...}
 Returns a table containing the stats of all the vessels in the multiblock.
 ]]
-local vessel =		msr.getVesselStats()
+local vessels =		msr.getVesselStats()
 --[[
 Object[] getHeaterStats() -> {{{posX, posY, posZ}, coolantName, isProcessing, currentRecipeTime, processTime, processCooling},...}
 Returns a table containing the stats of all the heaters in the multiblock.
