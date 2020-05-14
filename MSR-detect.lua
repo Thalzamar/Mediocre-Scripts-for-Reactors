@@ -5,8 +5,10 @@
 print("Iniating Startup Sequence")
 os.sleep(5)
 --maybe insert event for key press ?
-local msr = 		component.nc_salt_fission_reactor
+local c = require("component")
+local msr = c.nc_salt_fission_reactor
 --startup see if reactor is complete, no cheating
+[[contains oopsie
 local function init()
 local workCheck = 	msr.isComplete()
 end
@@ -14,7 +16,7 @@ end
  while not workCheck
 	do  init()
 end
-
+]]
 --variable list MSR
 -- msr.activate() msr.deactivate() on/off
 local active = 		msr.isReactorOn()
