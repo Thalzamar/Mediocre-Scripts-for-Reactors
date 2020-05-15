@@ -3,20 +3,13 @@ computer.setArchitecture("Lua 5.3")
 local c = require("component")
 local msr = c.nc_salt_fission_reactor
 
---My Crime against Humanity starts
 print("Iniating Startup Sequence")
 os.sleep(5) 
 --maybe insert event for key press ?
 --startup see if reactor is complete, no cheating
- 
---have to think on this did something wrong
---local function init()
---local workCheck = 	msr.isComplete()
---end
- 
- --while not workCheck
---	do  init()
---end
+while not msr.isComplete()
+do  msr.isComplete
+end
 --variable list MSR
 -- msr.activate() msr.deactivate() on/off
 local active = 		msr.isReactorOn()
@@ -206,5 +199,5 @@ for i = 1,#heaters
 	then print("You have", #oheat,oheat[1][2], "Heaters")
 	end
 	
-os.sleep(50)
+Print("Have a nice day")
 os.exit()
