@@ -8,8 +8,8 @@ os.sleep(5)
 --maybe insert event for key press ?
 --startup see if reactor is complete, no cheating
 while not msr.isComplete()
-do  msr.isComplete()
-end
+	do  msr.isComplete()
+ end
 --variable list MSR
 -- msr.activate() msr.deactivate() on/off
 local active = 		msr.isReactorOn()
@@ -199,5 +199,5 @@ for i = 1,#heaters
 	then print("You have", #oheat,oheat[1][2], "Heaters")
 	end
 	
-Print("Have a nice day")
+print("Have a nice day")
 os.exit()
