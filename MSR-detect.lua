@@ -81,120 +81,19 @@ if #nove > 0
 --[[check table empty if yes place
 , if not check coolent the same, yes place
 if not repeat next table ]]
-for i = 1,#heaters
-	do 
-	if #aheat == 0 then
-	table.move(heaters,i,i,#aheat+1,aheat)
-		elseif heaters[i][2] == aheat[1][2] 
-		then table.move(heaters,i,i,#aheat+1,aheat)
-			elseif #bheat == 0 
-			then table.move(heaters,i,i,#bheat+1,bheat)
-				elseif	heaters[i][2] == bheat[1][2]
-				then table.move(heaters,i,i,#bheat+1,bheat)
-					elseif #cheat == 0
-					then table.move(heaters,i,i,#cheat+1,cheat)
-						elseif heaters[i][2] == cheat[1][2]
-						then table.move(heaters,i,i,#cheat+1,cheat)
-							elseif #dheat == 0
-							then table.move(heaters,i,i,#dheat+1,dheat)
-								elseif heaters[i][2] == dheat[1][2]
-								then table.move(heaters,i,i,#dheat+1,dheat)
-									elseif #eheat == 0
-									then table.move(heaters,i,i,#eheat+1,eheat)
-										elseif heaters[i][2] == eheat[1][2]
-										then table.move(heaters,i,i,#eheat+1,eheat)
-											elseif #fheat == 0
-											then table.move(heaters,i,i,#fheat+1,fheat)
-												elseif heaters[i][2] == fheat[1][2]
-												then table.move(heaters,i,i,#fheat+1,fheat)
-													elseif #gheat == 0
-													then table.move(heaters,i,i,#gheat+1,gheat)
-														elseif heaters[i][2] == gheat[1][2]
-														then table.move(heaters,i,i,#gheat+1,gheat)
-															elseif #hheat == 0
-															then table.move(heaters,i,i,#hheat+1,hheat)
-																elseif heaters[i][2] == hheat[1][2]
-																then table.move(heaters,i,i,#hheat+1,hheat)
-																	elseif #iheat == 0
-																	then table.move(heaters,i,i,#iheat+1,iheat)
-																		elseif heaters[i][2] == iheat[1][2]
-																		then table.move(heaters,i,i,#iheat+1,iheat)
-																			elseif #jheat == 0
-																			then table.move(heaters,i,i,#jheat+1,jheat)
-																				elseif heaters[i][2] == jheat[1][2]
-																				then table.move(heaters,i,i,#jheat+1,jheat)
-																					elseif #kheat == 0
-																					then table.move(heaters,i,i,#kheat+1,kheat)
-																						elseif heaters[i][2] == kheat[1][2]
-																						then table.move(heaters,i,i,#kheat+1,kheat)
-																								elseif #lheat == 0
-																								then table.move(heaters,i,i,#lheat+1,lheat)
-																									elseif heaters[i][2] == lheat[1][2]
-																									then table.move(heaters,i,i,#lheat+1,lheat)
-	elseif #mheat == 0
-	then table.move(heaters,i,i,#mheat+1,mheat)
-		elseif heaters[i][2] == mheat[1][2]
-		then table.move(heaters,i,i,#mheat+1,mheat)
-			elseif #nheat == 0
-			then table.move(heaters,i,i,#nheat+1,nheat)
-				elseif heaters[i][2] == nheat[1][2]
-				then table.move(heaters,i,i,#nheat+1,nheat)
-					elseif #oheat == 0
-					then table.move(heaters,i,i,#oheat+1,oheat)
-						elseif heaters[i][2] == oheat[1][2]
-						then table.move(heaters,i,i,#oheat+1,oheat)
-							else print("Error, Code not working")
-												
-		end
-	end
-	print(nheaters, "total amount of heaters")
-	print(#aheat+#bheat+#cheat+#dheat+#eheat+#fheat+#gheat+#hheat+#iheat+#jheat+#kheat+#lheat+#mheat+#nheat+#oheat, "listed Amount of heaters")	
-	--Print the things, maybe format things if this even works
-	if #aheat > 0
-	then print("You have", #aheat,aheat[1][2], "Heaters")
-	end
-	if #bheat > 0
-	then print("You have", #bheat,bheat[1][2], "Heaters")
-	end
-	if #cheat > 0
-	then print("You have", #cheat,cheat[1][2], "Heaters")
-	end
-	if #dheat > 0
-	then print("You have", #dheat,dheat[1][2], "Heaters")
-	end
-	if #eheat > 0
-	then print("You have", #eheat,eheat[1][2], "Heaters")
-	end
-	if #fheat > 0
-	then print("You have", #fheat,fheat[1][2], "Heaters")
-	end
-	if #gheat > 0
-	then print("You have", #gheat,gheat[1][2], "Heaters")
-	end
-	if #hheat > 0
-	then print("You have", #hheat,hheat[1][2], "Heaters")
-	end
-	if #iheat > 0
-	then print("You have", #iheat,iheat[1][2], "Heaters")
-	end
-	if #jheat > 0
-	then print("You have", #jheat,jheat[1][2], "Heaters")
-	end
-	if #kheat > 0
-	then print("You have", #kheat,kheat[1][2], "Heaters")
-	end
-	if #lheat > 0
-	then print("You have", #lheat,lheat[1][2], "Heaters")
-	end
-	if #mheat > 0
-	then print("You have", #mheat,mheat[1][2], "Heaters")
-	end
-	if #nheat > 0
-	then print("You have", #nheat,nheat[1][2], "Heaters")
-	end
-	if #oheat > 0
-	then print("You have", #oheat,oheat[1][2], "Heaters")
-	end
-	
+-- made by Bob, have to read up on this witchery
+local heaters = require("component").nc_salt_fission_reactor.getHeaterStats()
+local heater_count = #heaters
+local heaters_by_type = {}
+for i = 1,heater_count do
+    local heater = heaters[i]
+    local heater_type = heater[2] -- coolantName
+    heaters_by_type[heater_type] = (heaters_by_type[heater_type] or 0) + 1
+end
+local print = print
+print(("Out of %d heaters :"):format(heater_count))
+for name,count in pairs(heaters_by_type) do
+    print(("You have %d %s heaters"):format(count,name))
+end
 print("Have a nice day")
 os.exit()
