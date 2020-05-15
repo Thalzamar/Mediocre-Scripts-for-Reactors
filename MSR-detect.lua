@@ -8,7 +8,7 @@ os.sleep(5)
 --maybe insert event for key press ?
 --startup see if reactor is complete, no cheating
 while not msr.isComplete()
-do  msr.isComplete
+do  msr.isComplete()
 end
 --variable list MSR
 -- msr.activate() msr.deactivate() on/off
