@@ -1,3 +1,4 @@
+require("computer")
 computer.setArchitecture("Lua 5.3")
 local c = require("component")
 local msr = c.nc_salt_fission_reactor
