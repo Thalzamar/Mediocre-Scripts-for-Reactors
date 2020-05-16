@@ -20,23 +20,6 @@ local cool =		msr.getCoolingRate()
 local nvessel =		msr.getNumberOfVessels()
 local nheaters = 	msr.getNumberOfHeaters()
 
-----tables to copy the heater stats into 
-
-local aheat= 		{}
-local bheat= 		{}
-local cheat= 		{}
-local dheat=		{}
-local eheat= 		{}
-local fheat=		{}
-local gheat= 		{}
-local hheat= 		{}
-local iheat=		{}
-local jheat=	 	{}
-local kheat=	 	{}
-local lheat= 		{}
-local mheat=		{}
-local nheat=		{}
-local oheat=	 	{}
 
 
 --Vesseltest and Heatertest
