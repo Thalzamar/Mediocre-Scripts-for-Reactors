@@ -74,7 +74,6 @@ for i = 1,heater_count do
     heaters_by_type[heater_type] = (heaters_by_type[heater_type] or 0) + 1
 end
 local print = print
-print(#heaters_by_type)
 print(("Out of %d heaters :"):format(heater_count))
 for name,count in pairs(heaters_by_type) do
     print(("You have %d %s heaters"):format(count,name))
