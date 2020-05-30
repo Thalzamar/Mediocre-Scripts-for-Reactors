@@ -73,12 +73,12 @@ local heater_type = {}
 for i = 1,heater_count do
     	local heater = heaters[i]
     	local heater_name = heater[2] -- coolantName
-	local count = heater_by_type[heater_name][count]+1
+	
    	local heater_cooling = heater[6] -- CoolentCooling
 	local heater_type = heater_name
-    local heater_type = {heater_name,heater_cooling,count}
-	
-    heaters_by_type[heater_type] = heater_type
+   	local heater_type = {heater_name,heater_cooling,count}
+	local heaters_by_type[heater_type] = heater_type
+	local heater_by_type[heater_name][count] = heater_by_type[heater_name][count]+1
 end
 local table_count = #heaters_by_type
 local print = print
